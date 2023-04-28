@@ -54273,7 +54273,7 @@ KB(){var s,r,q=null,p=A.ab0(B.jB,new A.lX("assets/images/background"+(B.bK.mQ(37
 o===$&&A.f()
 s=t.D
 o=A.acg(0,A.a7Q(A.a([B.IY,B.tC,B.IZ,B.EG,A.a_8(""+o,B.Ga,q,q),B.tC,A.abf(B.J1,this.gAH(),q)],s),B.q3))
-r=A.n_(70,A.Sg(!1,!0,B.J0,q,!0,q,q,q,q,q,q,q,q,q,new A.a3s(),q,q,q,q),q,q,q,16,q,q)
+r=A.n_(80,A.Sg(!1,!0,B.J0,q,!0,q,q,q,q,q,q,q,q,q,new A.a3s(),q,q,q,q),q,q,q,16,q,q)
 return A.xe(new A.hg(1/0,1/0,A.md(q,A.no(B.b2,A.a([o,r,A.n_(16,A.Sg(!1,!0,new A.qd(A.alO(q,q,new A.lX("assets/images/tmdb.png",q,q)),50,q),q,!0,q,q,q,q,q,q,q,q,q,new A.a3t(),q,q,q,q),q,q,q,16,q,q)],s),B.bx),q,q,new A.dW(q,p,q,q,q,q,B.aq),q,q,q,q),q),q,q)},
 jE(){var s=0,r=A.X(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e
 var $async$jE=A.Y(function(a,b){if(a===1)return A.U(b,r)
@@ -59235,7 +59235,7 @@ B.IY=new A.hj("Game Over",null,B.Il,null,null,null)
 B.Gb=new A.q(!0,B.bk,null,null,null,null,24,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.IZ=new A.hj("Final Score:",null,B.Gb,null,null,null)
 B.J_=new A.hj("Horror Poster Quiz",null,null,null,null,null)
-B.Is=new A.q(!0,B.q9,null,null,null,null,16,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Is=new A.q(!0,B.q9,null,null,null,null,18,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.J0=new A.hj("@zorakDev",null,B.Is,null,null,null)
 B.J1=new A.hj("Play Again",null,null,null,null,null)
 B.Lp=new A.a_G(0,"system")
