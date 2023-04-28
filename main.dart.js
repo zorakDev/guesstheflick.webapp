@@ -53057,7 +53057,7 @@ s.toString
 return s},
 $S:109}
 A.A6.prototype={
-R(a){return new A.qu(B.D_,"Nelson's Action 80's Poster Quiz",A.abM(B.J,null),null)}}
+R(a){return new A.qu(B.D_,"Nelson's 80s Action Posters",A.abM(B.J,null),null)}}
 A.rj.prototype={
 ao(){return new A.uO(B.m)}}
 A.uO.prototype={
