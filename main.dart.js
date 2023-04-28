@@ -54252,7 +54252,7 @@ s.toString
 return s},
 $S:81}
 A.AB.prototype={
-R(a){return new A.qQ(B.Dq,"Horror Poster Quiz",A.ad4(B.K,null),null)}}
+R(a){return new A.qQ(B.Dq,"Horror Frame Quiz",A.ad4(B.K,null),null)}}
 A.rD.prototype={
 aq(){return new A.v9(B.m)}}
 A.v9.prototype={
@@ -54281,13 +54281,13 @@ A.mt(B.eg,new A.a3y(p),t.P)},
 KB(){var s,r,q=null,p=A.ab2(B.dR,new A.k3("assets/images/background"+(B.bK.mQ(37)+11)+".jpg",q,q)),o=this.r
 o===$&&A.f()
 s=t.D
-o=A.acj(0,A.a7S(A.a([B.J0,B.tC,B.J1,B.EJ,A.a_8(""+o,B.Gd,q,q),B.tC,A.abh(B.J4,this.gAH(),q)],s),B.q3))
+o=A.acj(0,A.a7S(A.a([B.J1,B.tC,B.J2,B.EJ,A.a_8(""+o,B.Gd,q,q),B.tC,A.abh(B.J4,this.gAH(),q)],s),B.q3))
 r=A.n_(80,A.Sg(!1,!0,B.J3,q,!0,q,q,q,q,q,q,q,q,q,new A.a3s(),q,q,q,q),q,q,q,16,q,q)
 return A.xf(new A.hg(1/0,1/0,A.ke(q,A.no(B.b2,A.a([o,r,A.n_(16,A.Sg(!1,!0,new A.qe(A.alQ(q,q,new A.k3("assets/images/tmdb.png",q,q)),50,q),q,!0,q,q,q,q,q,q,q,q,q,new A.a3t(),q,q,q,q),q,q,q,16,q,q)],s),B.bx),q,q,new A.dE(q,p,q,q,q,q,B.ag),q,q,q,q),q),q,q)},
 jE(){var s=0,r=A.X(t.H),q=this,p,o,n,m,l,k,j,i,h,g
 var $async$jE=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:q.aa(new A.a3z(q))
-p=B.bK.mQ(25)
+p=B.bK.mQ(50)
 o=A.a([27],t.t)
 p="https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&primary_release_year="+(1970+p)+"&with_genres="
 s=2
@@ -54298,8 +54298,8 @@ l=J.am(m)
 do k=B.bK.mQ(J.bA(l.j(m,"results")))
 while(k>=J.bA(l.j(m,"results"))||k<0)
 j=A.ac_(J.b2(l.j(m,"results"),k))
-if(j.d!=null)q.aa(new A.a3A(j))
-else if(j.e!=null)q.aa(new A.a3B(j))
+if(j.e!=null)q.aa(new A.a3A(j))
+else if(j.d!=null)q.aa(new A.a3B(j))
 q.f=j.b
 s=3
 return A.a4(A.af4(A.fn(p+B.b.b0(o,","),0,null)),$async$jE)
@@ -54355,7 +54355,7 @@ if(!o.x){m=o.y
 m===$&&A.f()
 m=m||o.gB0()}else m=!0
 if(m){m=o.gB0()?1:0
-p.push(new A.fS(!0,n,new A.oG(A.no(B.b2,B.zu,B.bx),m,B.Z,B.cA,n,n),n))}return A.acE(new A.oS(B.J2,!0,new A.HR(30,n,1/0,30),30,n),A.no(B.b2,p,B.bx),A.abo(B.yc,!1,o.gAH()))}}}
+p.push(new A.fS(!0,n,new A.oG(A.no(B.b2,B.zu,B.bx),m,B.Z,B.cA,n,n),n))}return A.acE(new A.oS(B.J0,!0,new A.HR(30,n,1/0,30),30,n),A.no(B.b2,p,B.bx),A.abo(B.yc,!1,o.gAH()))}}}
 A.a3F.prototype={
 $0(){var s=this.a
 s.x=!0
@@ -54460,12 +54460,12 @@ A.a3z.prototype={
 $0(){this.a.x=!0},
 $S:0}
 A.a3A.prototype={
-$0(){var s=this.a,r=s.d
+$0(){var s=this.a,r=s.e
 r.toString
 s.c=r},
 $S:0}
 A.a3B.prototype={
-$0(){var s=this.a,r=s.e
+$0(){var s=this.a,r=s.d
 r.toString
 s.c=r},
 $S:0}
@@ -59026,7 +59026,7 @@ B.Cb=new A.bn([50,B.x8,100,B.x7,200,B.x6,300,B.x5,400,B.x4,500,B.x2,600,B.x_,700
 B.qb=new A.h0(B.Cb,4294961979)
 B.GA=new A.q(!0,B.qb,null,null,null,null,20,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.GB=new A.q(!0,B.qb,null,null,null,null,24,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.H5=new A.q(!0,null,null,null,null,null,22,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.H5=new A.q(!0,null,null,null,null,null,24,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.HS=new A.q(!0,null,null,null,null,null,null,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.FP=new A.q(!0,B.p,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity displayLarge",null,null,null,null)
 B.Gg=new A.q(!0,B.p,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity displayMedium",null,null,null,null)
@@ -59239,6 +59239,7 @@ B.I9=new A.q(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.HN=new A.q(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.IZ=new A.dc(B.Hx,B.II,B.Iq,B.Gc,B.Ih,B.Hq,B.IM,B.GH,B.H9,B.Ic,B.G7,B.Is,B.If,B.I9,B.HN)
 B.J_=new A.DD(1,"longestLine")
+B.J0=new A.hj("Horror Frame Quiz",null,null,null,null,null)
 B.wP=new A.z(4293454582)
 B.wF=new A.z(4291152617)
 B.wz=new A.z(4288653530)
@@ -59252,10 +59253,9 @@ B.wf=new A.z(4279903102)
 B.C9=new A.bn([50,B.wP,100,B.wF,200,B.wz,300,B.wv,400,B.ws,500,B.wo,600,B.wn,700,B.wl,800,B.wj,900,B.wf],t.bl)
 B.CC=new A.h0(B.C9,4282339765)
 B.Io=new A.q(!0,B.CC,null,null,null,null,48,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.J0=new A.hj("Game Over",null,B.Io,null,null,null)
+B.J1=new A.hj("Game Over",null,B.Io,null,null,null)
 B.Ge=new A.q(!0,B.bk,null,null,null,null,24,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.J1=new A.hj("Final Score:",null,B.Ge,null,null,null)
-B.J2=new A.hj("Horror Poster Quiz",null,null,null,null,null)
+B.J2=new A.hj("Final Score:",null,B.Ge,null,null,null)
 B.Iv=new A.q(!0,B.q9,null,null,null,null,18,B.a9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.J3=new A.hj("@zorakDev",null,B.Iv,null,null,null)
 B.J4=new A.hj("Play Again",null,null,null,null,null)
