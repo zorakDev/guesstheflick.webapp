@@ -53057,7 +53057,7 @@ s.toString
 return s},
 $S:109}
 A.A6.prototype={
-R(a){return new A.qu(B.D_,"Nelson's 80s Action Posters",A.abM(B.J,null),null)}}
+R(a){return new A.qu(B.D_,"Movie Poster Quiz",A.abM(B.J,null),null)}}
 A.rj.prototype={
 ao(){return new A.uO(B.m)}}
 A.uO.prototype={
@@ -53086,9 +53086,9 @@ A.mi(B.ec,new A.a2p(p),t.P)},
 jr(){var s=0,r=A.a_(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f
 var $async$jr=A.a0(function(a,b){if(a===1)return A.X(b,r)
 while(true)switch(s){case 0:q.a9(new A.a2q(q))
-p=B.cs.pv(15)
-o=A.a([28],t.t)
-p="https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&primary_release_year="+(1980+p)+"&with_genres="
+p=B.cs.pv(20)
+o=A.a([878,27,28],t.t)
+p="https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&primary_release_year="+(1977+p)+"&with_genres="
 s=2
 return A.ab(A.adI(A.lf(p+B.b.aY(o,","))),$async$jr)
 case 2:n=b
@@ -53131,7 +53131,7 @@ R(a){var s,r,q,p=this,o=null,n=p.ax
 n===$&&A.f()
 if(n){n=p.r
 n===$&&A.f()
-return A.abj(o,A.wK(A.a6E(A.a([B.Iy,B.tt,B.Iz,B.ts,A.Z8(""+n,B.tE),B.tt,A.a9Y(B.Iw,p.gAf(),o)],t.D),B.q0),o,o),o)}else{n=p.x
+return A.abj(o,A.wK(A.a6E(A.a([B.Ix,B.tt,B.Iy,B.ts,A.Z8(""+n,B.tE),B.tt,A.a9Y(B.Iw,p.gAf(),o)],t.D),B.q0),o,o),o)}else{n=p.x
 n===$&&A.f()
 if(n)n=B.e0
 else{n=p.d
@@ -53154,7 +53154,7 @@ if(!p.x){n=p.y
 n===$&&A.f()
 n=n||p.gAy()}else n=!0
 if(n){n=p.gAy()?1:0
-q.push(new A.fJ(!0,o,new A.om(A.t7(B.bA,B.z9,B.ci),n,B.Z,B.cz,o,o),o))}return A.abj(new A.oy(B.Ix,!0,new A.Hj(o,o,1/0,56),o),A.t7(B.bA,q,B.ci),A.aa3(B.xU,!1,p.gAf()))}}}
+q.push(new A.fJ(!0,o,new A.om(A.t7(B.bA,B.z9,B.ci),n,B.Z,B.cz,o,o),o))}return A.abj(new A.oy(B.Iz,!0,new A.Hj(o,o,1/0,56),o),A.t7(B.bA,q,B.ci),A.aa3(B.xU,!1,p.gAf()))}}}
 A.a2u.prototype={
 $0(){var s=this.a
 s.x=!0
@@ -57911,10 +57911,10 @@ B.Hj=new A.o(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Iu=new A.d8(B.H3,B.Id,B.HX,B.FL,B.HP,B.GX,B.Ih,B.Gd,B.GG,B.HK,B.FG,B.HZ,B.HN,B.HH,B.Hj)
 B.Iv=new A.D6(1,"longestLine")
 B.Iw=new A.i6("Play Again",null,null,null,null)
-B.Ix=new A.i6("Nelson's 80s Action Posters",null,null,null,null)
-B.Iy=new A.i6("Game Over",null,B.tE,null,null)
+B.Ix=new A.i6("Game Over",null,B.tE,null,null)
 B.Hp=new A.o(!0,null,null,null,null,null,24,B.as,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Iz=new A.i6("Final Score:",null,B.Hp,null,null)
+B.Iy=new A.i6("Final Score:",null,B.Hp,null,null)
+B.Iz=new A.i6("Movie Poster Quiz",null,null,null,null)
 B.KW=new A.ZG(0,"system")
 B.IA=new A.tp(null)
 B.dv=new A.Da(0,"clamp")
