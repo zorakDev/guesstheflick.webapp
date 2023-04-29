@@ -54321,7 +54321,7 @@ var $async$jE=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:q.aa(new A.a3A(q))
 p=B.bK.mQ(40)
 o=A.a([27],t.t)
-p="https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&primary_release_year="+(1970+p)+"&with_genres="
+p="https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&primary_release_year="+(1980+p)+"&with_genres="
 s=2
 return A.a4(A.af5(A.fn(p+B.b.b0(o,","),0,null)),$async$jE)
 case 2:n=b
@@ -57135,7 +57135,7 @@ B.cB=new A.mp(1,"low")
 B.xp=new A.pv(B.un,B.jB)
 B.ag=new A.x6(0,"rectangle")
 B.uH=new A.dE(null,B.xp,null,null,null,null,B.ag)
-B.uI=new A.p1(1,"contain")
+B.uI=new A.p1(4,"fitHeight")
 B.jC=new A.p1(6,"scaleDown")
 B.uJ=new A.M_(0,"tight")
 B.uK=new A.x6(1,"circle")
