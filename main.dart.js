@@ -17380,17 +17380,10 @@ aff(){if($.bb==null)A.an3()
 var s=$.bb
 s.Gk(B.CV)
 s.x3()},
-ac0(a){var s,r,q,p="https://image.tmdb.org/t/p/w500",o="backdrop_path",n="still_path",m=J.am(a)
-m.j(a,"id")
-s=m.j(a,"title")
-r=A.h(m.j(a,"poster_path"))
-q=m.j(a,o)!=null?p+A.h(m.j(a,o)):null
-m=m.j(a,n)!=null?p+A.h(m.j(a,n)):null
-return new A.kK(s,p+r,q,m)},
 AC:function AC(a){this.a=a},
 rE:function rE(a){this.a=a},
 va:function va(a){var _=this
-_.ay=_.ax=_.at=_.as=_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=$
+_.ch=_.ax=_.at=_.as=_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=$
 _.a=null
 _.b=a
 _.c=null},
@@ -17416,6 +17409,13 @@ a3F:function a3F(a){this.a=a},
 a3E:function a3E(a){this.a=a},
 a3I:function a3I(a){this.a=a},
 a3H:function a3H(a){this.a=a},
+ac0(a){var s,r,q,p="https://image.tmdb.org/t/p/w500",o="backdrop_path",n="still_path",m=J.am(a)
+m.j(a,"id")
+s=m.j(a,"title")
+r=A.h(m.j(a,"poster_path"))
+q=m.j(a,o)!=null?p+A.h(m.j(a,o)):null
+m=m.j(a,n)!=null?p+A.h(m.j(a,n)):null
+return new A.kK(s,p+r,q,m)},
 kK:function kK(a,b,c,d){var _=this
 _.b=a
 _.c=b
@@ -54303,8 +54303,8 @@ DY(a){var s=this
 if(a)s.aa(new A.a3K(s))
 else s.aa(new A.a3L(s))
 A.mt(B.cA,new A.a3M(s),t.P)},
-gB0(){var s=this.ay
-return s===$?this.ay=!1:s},
+gB0(){var s=this.ch
+return s===$?this.ch=!1:s},
 KQ(a){var s,r,q,p=this
 p.aa(new A.a3y(p,a))
 s=0
@@ -54323,7 +54323,7 @@ p=B.bK.mQ(40)
 o=A.a([27],t.t)
 p="https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&primary_release_year="+(1980+p)+"&with_genres="
 s=2
-return A.a4(A.af5(A.fn(p+B.b.b0(o,","),0,null)),$async$jE)
+return A.a4(A.af5(A.fn(p+B.b.b0(o,",")+"&vote_count.gte=300",0,null)),$async$jE)
 case 2:n=b
 m=B.ai.bW(0,A.aeW(A.ae0(n.e).c.a.j(0,"charset")).bW(0,n.w))
 l=J.am(m)
@@ -54338,7 +54338,7 @@ return A.a4(A.af5(A.fn(p+B.b.b0(o,","),0,null)),$async$jE)
 case 3:i=b
 h=B.ai.bW(0,A.aeW(A.ae0(i.e).c.a.j(0,"charset")).bW(0,i.w))
 g=A.ck([q.f],t.N)
-for(p=J.am(h);g.a<4;)g.C(0,A.ac0(J.b2(p.j(h,"results"),B.bK.mQ(J.bA(p.j(h,"results"))))).b)
+for(p=J.am(h);g.a<3;)g.C(0,A.ac0(J.b2(p.j(h,"results"),B.bK.mQ(J.bA(p.j(h,"results"))))).b)
 p=A.an(g,!0,g.$ti.c)
 B.b.xj(p)
 q.e=p
@@ -54427,7 +54427,7 @@ if(r%10===0){r=s.w
 r===$&&A.f()
 s.w=r+1
 s.at=B.CE
-s.ay=!0
+s.ch=!0
 A.mt(B.cA,new A.a3x(s),t.P)}s.DY(!0)}else{r=s.w
 r===$&&A.f()
 s.w=r-1
@@ -54439,7 +54439,7 @@ $0(){var s=this.a
 s.aa(new A.a3v(s))},
 $S:2}
 A.a3v.prototype={
-$0(){this.a.ay=!1},
+$0(){this.a.ch=!1},
 $S:0}
 A.a3z.prototype={
 $0(){var s=this.a
